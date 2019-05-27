@@ -1,0 +1,259 @@
+.navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand img {
+	width: auto;
+	height: 50px;
+}
+
+.carousel {
+	margin-bottom: 10px;
+}
+
+.carousel-caption {
+	background-color: rgba(3, 3, 3, 0.3);
+}
+
+.carousel-inner .item img {
+	min-height: 150px;
+}
+
+.product-item {
+	margin-bottom: 10px;
+}
+
+.product-item .img-thumbnail div {
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.product-item .img-thumbnail:hover {
+	border-color: #31B0D5;
+}
+
+.product-item img {
+	transition: transform .4s;
+}
+
+.product-item img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+.product-item .title {
+	padding: .3rem;
+	height: 2.7rem;
+	font-size: 1.2rem;
+	position: relative;
+	line-height: 1.2rem;
+	overflow: hidden;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.product-item .price {
+	color: #C12E2A;
+	font-size: 80%;
+}
+
+.product-item .price span:last-of-type {
+	font-size: 1.6rem;
+}
+
+.news {
+	list-style: none;
+	padding-left: 0;
+}
+
+.news li {
+	clear: both;
+	padding: 10px 0;
+	margin-left: -15px;
+}
+
+.news li+li {
+	border-top: dotted 1px #AAA;
+}
+
+.news li span:last-of-type {
+	font-size: 1rem;
+	line-height: 1.8rem;
+	color: #939393;
+}
+
+footer .tip-item {
+	display: table-cell;
+	text-align: center;
+	padding: 10px 5px 5px 5px;
+}
+
+footer .f-link {
+	text-align: center;
+	height: 140px;
+}
+
+footer .f-link a {
+	display: table-row;
+}
+
+footer .f-link div {
+	color: #666;
+	font-size: 80%;
+}
+
+footer .copy {
+	font-size: 12px;
+	color: #666;
+}
+
+footer .auth {
+	margin: 10px 0 5px 0;
+}
+
+@media (min-width: 768px) {
+	footer .sm-left {
+		float: left;
+	}
+	footer .sm-right {
+		float: right;
+	}
+}
+
+
+/*##### login.html ####*/
+
+.navbar-right img {
+	margin-top: 10px;
+}
+
+.code-addon {
+	padding: 2px 5px !important;
+}
+
+.code-addon img {
+	width: 100px;
+	height: 25px;
+	border-style: none;
+	vertical-align: middle;
+}
+
+.product-detail .line {
+	border-bottom: #999 dotted 1px;
+}
+
+.product-detail .count {
+	max-width: 80px;
+	display: inline-block;
+}
+
+.cart-badge {
+	left: 0;
+	top: 0;
+	color: #fff;
+	width: 6rem;
+	height: 6rem;
+	z-index: 9999;
+	font-size: 2rem;
+	font-weight: 700;
+	line-height: 6rem;
+	position: absolute;
+	text-align: center;
+	border-radius: 3rem;
+	white-space: nowrap;
+	border-color: #245580;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #ff0000;
+	text-shadow: 0 1px 0 #fff;
+	background-repeat: repeat-x;
+	background-image: -webkit-linear-gradient(top, #337ab7 0, #265a88 100%);
+	background-image: -o-linear-gradient(top, #337ab7 0, #265a88 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#265a88));
+	background-image: linear-gradient(to bottom, #337ab7 0, #265a88 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.cart-empty {
+	padding-top: 40px;
+}
+
+.cart-foot-sum {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.cart-foot-sum small {
+	font-size: 60%;
+}
+
+
+/*##### address.html ####*/
+
+#form-add-address .input-group-addon span {
+	width: 60px;
+	text-align: right;
+	display: block;
+}
+
+
+/*##### html/ads.html ####*/
+
+@media screen and (min-width:768px) {
+	.popover {
+		max-width: 400px !important;
+	}
+}
+
+
+/*##### html/user.html ####*/
+
+.user-img {
+	padding: 3px 0 0 3px !important;
+}
+
+.user-img .img-circle {
+	height: 25px !important;
+	border: #C0C0C0 solid 1px !important;
+}
+
+
+/*##### order.html and html/order.html ####*/
+
+.order-item {
+	padding: 3px;
+	border-radius: 8px;
+	margin-bottom: 15px;
+	border-left: dotted #5E5E5E 1px;
+	border-bottom: dotted #5E5E5E 1px;
+}
+
+.order-item .order-detail {
+	padding: 5px;
+	border-radius: 8px;
+	border-top: dashed #9E9E9E 1px;
+}
+
+/*##### html/product-category.html ####*/
+.collapsed .caret {
+	content: "";
+	border-top: 0;
+	border-bottom: 4px dashed;
+	border-bottom: 4px solid\9
+}
+
+/*##### html/product.html ####*/
+.product-title {
+	padding: .3rem;
+	height: 2.6rem;
+	font-size: 1.2rem;
+	position: relative;
+	line-height: 1.2rem;
+	overflow: hidden;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
